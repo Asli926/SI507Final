@@ -58,12 +58,14 @@ class Tree:
         print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
     
 
+    # traverse in pre-order
     def traverse(self):
         if self.left: self.left.traverse()
         self.printNode()
         if self.right: self.right.traverse()
 
 
+    # traverse within a certain range
     def traverse_in_range(self, low, high):
         if self.val < low:
             if self.right: self.right.traverse_in_range(low, high)
@@ -78,6 +80,7 @@ class Tree:
         
 
 if __name__ == '__main__':
+    # some examples, not used
     con = sqlite3.connect('Apartments.db')
     cur = con.cursor()
     root = Tree()
