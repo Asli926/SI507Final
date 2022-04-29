@@ -48,7 +48,7 @@ class Tree:
 
     def printNode(self):
         if self.price_l == 0:
-            print("No results!")
+            # print("No results!")
             return
         print("Address: " + self.addr)
         print(f"Price: from {self.price_l} to {self.price_h} with bedrooms {self.bed_l}B - {self.bed_h}B")
