@@ -92,6 +92,6 @@ class Tree:
 ```
 #### Data
 ##### Database Screenshot
-![db](/Users/liaishan/workspace/Umich/22win/SI507/Project/FinalPj/db.png)
+![avatar](https://github.com/Asli926/SI507Final/blob/main/db.png)
 ##### Data Cached Screenshot
 The data is printed as shown in Interactive Process Part using the `printNode` function in cache.py
